@@ -1,0 +1,42 @@
+{
+  "Logistic Regression": {
+    "Train_Accuracy": 0.7595287811263128,
+    "Train_AUC": 0.7377079115382179,
+    "Test_Accuracy": 0.6904173331394503,
+    "Test_F1": 0.7705571721090635,
+    "Test_Precision": 0.6896219135802469,
+    "Test_Recall": 0.873015873015873,
+    "Test_AUC": 0.44015154108612053,
+    "Test_PR_AUC": 0.5073422349734603
+  },
+  "Decision Tree (max_depth=6)": {
+    "Train_Accuracy": 0.9386667497740518,
+    "Train_AUC": 0.9794662167874933,
+    "Test_Accuracy": 0.952450196306529,
+    "Test_F1": 0.9611592825751277,
+    "Test_Precision": 0.9357076780758556,
+    "Test_Recall": 0.9880341880341881,
+    "Test_AUC": 0.9872652908238819,
+    "Test_PR_AUC": 0.9913361042285158
+  },
+  "Random Forest (n=200, max_depth=6)": {
+    "Train_Accuracy": 0.9079689593916539,
+    "Train_AUC": 0.9807227628989249,
+    "Test_Accuracy": 0.643449178420823,
+    "Test_F1": 0.754456238734228,
+    "Test_Precision": 0.6394500084875233,
+    "Test_Recall": 0.9199023199023199,
+    "Test_AUC": 0.8240390650167789,
+    "Test_PR_AUC": 0.9067673468741817
+  },
+  "CapFlow XGBoost (max_depth=5)": {
+    "Train_Accuracy": 0.9937357808458254,
+    "Train_AUC": 0.9997326353098834,
+    "Test_Accuracy": 0.967136832921332,
+    "Test_F1": 0.9729146692233941,
+    "Test_Precision": 0.9552835961402683,
+    "Test_Recall": 0.9912087912087912,
+    "Test_AUC": 0.9930046110132379,
+    "Test_PR_AUC": 0.995353349376186
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "correlations": [
+    {
+      "feature": "cust_hist_late_rate",
+      "r_classification_train": 0.25489404604378113,
+      "p_classification_train": 0.0,
+      "r_regression_train": 0.21270447630720934,
+      "p_regression_train": 0.0,
+      "r_classification_test": 0.24872758392994312,
+      "p_classification_test": 1.7703540925229194e-97,
+      "r_regression_test": 0.8824711073670569,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "posting_month_sin",
+      "r_classification_train": 0.11229567136435248,
+      "p_classification_train": 1.5152681414998287e-90,
+      "r_regression_train": 0.09174716074816194,
+      "p_regression_train": 6.165290107485058e-61,
+      "r_classification_test": -0.0863036453591685,
+      "p_classification_test": 7.552624375019338e-13,
+      "r_regression_test": -0.058174022116907004,
+      "p_regression_test": 1.3829373372699479e-06
+    },
+    {
+      "feature": "Age_Of_Customer_Months",
+      "r_classification_train": 0.1031580297502634,
+      "p_classification_train": 1.2446215518798251e-76,
+      "r_regression_train": 0.04451057126916471,
+      "p_regression_train": 1.50234268047116e-15,
+      "r_classification_test": 0.1725407815780018,
+      "p_classification_test": 4.2232384452951287e-47,
+      "r_regression_test": 0.6760081292929402,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "Payment_Term",
+      "r_classification_train": 0.08756450016669126,
+      "p_classification_train": 1.1962051339921559e-55,
+      "r_regression_train": 0.10899241712452157,
+      "p_regression_train": 2.235229488467395e-85,
+      "r_classification_test": -0.22275794762294215,
+      "p_classification_test": 4.512832277536572e-78,
+      "r_regression_test": -0.7996450915016934,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "cust_hist_delay_mean",
+      "r_classification_train": 0.07282237905457063,
+      "p_classification_train": 5.47160381200319e-39,
+      "r_regression_train": 0.2708080802866649,
+      "p_regression_train": 0.0,
+      "r_classification_test": 0.24651812775473098,
+      "p_classification_test": 9.821545398360295e-96,
+      "r_regression_test": 0.8806472681174654,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "No_of_orders_by_customer",
+      "r_classification_train": 0.06905409588988096,
+      "p_classification_train": 3.1961545714253125e-35,
+      "r_regression_train": -0.08455018736864613,
+      "p_regression_train": 5.426138480754479e-52,
+      "r_classification_test": 0.12480217025257377,
+      "p_classification_test": 2.80275712256901e-25,
+      "r_regression_test": 0.4733003542088436,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "comm_dispute_score",
+      "r_classification_train": 0.018965058492212337,
+      "p_classification_train": 0.0006804073071610855,
+      "r_regression_train": 0.06634186913095164,
+      "p_regression_train": 1.2362333823281236e-32,
+      "r_classification_test": -0.003383515551660411,
+      "p_classification_test": 0.779065626832062,
+      "r_regression_test": -0.017525268232109238,
+      "p_regression_test": 0.1461745528154606
+    },
+    {
+      "feature": "comm_sentiment_negative",
+      "r_classification_train": 0.012596503660943672,
+      "p_classification_train": 0.02404598409079109,
+      "r_regression_train": 0.08248285860542087,
+      "p_regression_train": 1.4719657482438074e-49,
+      "r_classification_test": 0.007134542686781421,
+      "p_classification_test": 0.5541512637618544,
+      "r_regression_test": -0.012810292290462972,
+      "p_regression_test": 0.2881547581158313
+    },
+    {
+      "feature": "comm_urgency_score",
+      "r_classification_train": 0.0004953889694617984,
+      "p_classification_train": 0.9292926716523138,
+      "r_regression_train": -0.002740738652771554,
+      "p_regression_train": 0.6234787512966289,
+      "r_classification_test": 0.009711567470790862,
+      "p_classification_test": 0.4206867704348746,
+      "r_regression_test": 0.011659033063883216,
+      "p_regression_test": 0.3336871997723095
+    },
+    {
+      "feature": "comm_delay_risk_score",
+      "r_classification_train": -0.0030363986618953138,
+      "p_classification_train": 0.5865203110556063,
+      "r_regression_train": 0.024915128585004397,
+      "p_regression_train": 8.06213535799388e-06,
+      "r_classification_test": 0.010892797360959376,
+      "p_classification_test": 0.3664319658029334,
+      "r_regression_test": -0.009067588175373958,
+      "p_regression_test": 0.4521516091145511
+    },
+    {
+      "feature": "log_amount",
+      "r_classification_train": -0.011073222569408521,
+      "p_classification_train": 0.047310192344579415,
+      "r_regression_train": 0.015274376356020556,
+      "p_regression_train": 0.006216678200536899,
+      "r_classification_test": 0.1556171377911892,
+      "p_classification_test": 1.5523139084369967e-38,
+      "r_regression_test": 0.10422768150933227,
+      "p_regression_test": 4.499392162755244e-18
+    },
+    {
+      "feature": "cust_hist_delay_std",
+      "r_classification_train": -0.01324080292982295,
+      "p_classification_train": 0.01770090277842979,
+      "r_regression_train": 0.11377232530393372,
+      "p_regression_train": 6.590699345835193e-93,
+      "r_classification_test": -0.2041218180863293,
+      "p_classification_test": 1.3700323336996982e-65,
+      "r_regression_test": -0.7978432911877553,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "Amount",
+      "r_classification_train": -0.02301533335921312,
+      "p_classification_train": 3.738294454247412e-05,
+      "r_regression_train": 0.050550469829453756,
+      "p_regression_train": 1.2989343810845125e-19,
+      "r_classification_test": 0.06359077441638354,
+      "p_classification_test": 1.3073070571196658e-07,
+      "r_regression_test": 0.06230919159224081,
+      "p_regression_test": 2.3254270083368166e-07
+    },
+    {
+      "feature": "payment_terms_days",
+      "r_classification_train": -0.03370571281654875,
+      "p_classification_train": 1.5494494423467152e-09,
+      "r_regression_train": 0.14666051361795412,
+      "p_regression_train": 9.720998102548391e-154,
+      "r_classification_test": -0.24997285351334697,
+      "p_classification_test": 1.8085402989493373e-98,
+      "r_regression_test": -0.9357799120307241,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "Region",
+      "r_classification_train": -0.043772239982596724,
+      "p_classification_train": 4.353494940605158e-15,
+      "r_regression_train": -0.08479856476154013,
+      "p_regression_train": 2.7419252074710874e-52,
+      "r_classification_test": -0.10478219854006289,
+      "p_classification_test": 2.9920690730675393e-18,
+      "r_regression_test": -0.27728916031755024,
+      "p_regression_test": 1.2575375902882454e-121
+    },
+    {
+      "feature": "City",
+      "r_classification_train": -0.05041766444340813,
+      "p_classification_train": 1.6157180427563565e-19,
+      "r_regression_train": -0.07486274534886374,
+      "p_regression_train": 4.1238736008743536e-41,
+      "r_classification_test": -0.12933383030962184,
+      "p_classification_test": 4.8399663697100744e-27,
+      "r_regression_test": -0.3762116629933064,
+      "p_regression_test": 3.7889075658151506e-230
+    },
+    {
+      "feature": "posting_month_cos",
+      "r_classification_train": -0.061340138774309654,
+      "p_classification_train": 3.9203727930747106e-28,
+      "r_regression_train": -0.042407901293300895,
+      "p_regression_train": 2.9708388985515384e-14,
+      "r_classification_test": 0.08630364535916839,
+      "p_classification_test": 7.552624375021023e-13,
+      "r_regression_test": 0.05817402211690706,
+      "p_regression_test": 1.382937337269851e-06
+    },
+    {
+      "feature": "Payment_Method_description",
+      "r_classification_train": -0.17064274470946023,
+      "p_classification_train": 3.3668320866107583e-208,
+      "r_regression_train": -0.17677706163483284,
+      "p_regression_train": 1.5902148822654485e-223,
+      "r_classification_test": -0.25456785163339885,
+      "p_classification_test": 3.573896609484045e-102,
+      "r_regression_test": -0.9349688949285294,
+      "p_regression_test": 0.0
+    },
+    {
+      "feature": "posting_day_of_week",
+      "r_classification_train": -0.2941067605076236,
+      "p_classification_train": 0.0,
+      "r_regression_train": -0.018018820683438217,
+      "p_regression_train": 0.0012473760182839,
+      "r_classification_test": 0.16708938642762447,
+      "p_classification_test": 3.058901338095941e-44,
+      "r_regression_test": 0.14103808543182114,
+      "p_regression_test": 6.845982985783378e-32
+    }
+  ],
+  "generalization_audit": [
+    {
+      "metric": "ACCURACY",
+      "train_score": 0.9868,
+      "test_score": 0.9498,
+      "gap (test - train)": -0.037,
+      "relative_gap_%": -3.74
+    },
+    {
+      "metric": "F1",
+      "train_score": 0.9905,
+      "test_score": 0.9595,
+      "gap (test - train)": -0.0309,
+      "relative_gap_%": -3.12
+    },
+    {
+      "metric": "AUC_ROC",
+      "train_score": 0.9997,
+      "test_score": 0.9551,
+      "gap (test - train)": -0.0446,
+      "relative_gap_%": -4.46
+    },
+    {
+      "metric": "MAE",
+      "train_score": 1.3061,
+      "test_score": 4.5745,
+      "gap (test - train)": 3.2683,
+      "relative_gap_%": 250.23
+    },
+    {
+      "metric": "RMSE",
+      "train_score": 2.7709,
+      "test_score": 7.7175,
+      "gap (test - train)": 4.9466,
+      "relative_gap_%": 178.52
+    }
+  ],
+  "validation_threshold": 0.740909090909091
+}

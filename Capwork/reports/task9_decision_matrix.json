@@ -1,0 +1,64 @@
+{
+  "brier_score": 0.03661362826824188,
+  "classification_threshold_used": 0.9318181818181818,
+  "calibration_curve": {
+    "prob_true": [
+      0.0,
+      0.016245487364620937,
+      0.03578528827037773,
+      0.0,
+      0.0,
+      0.29850746268656714,
+      0.3902439024390244,
+      0.9926470588235294,
+      0.8453038674033149,
+      0.982725527831094
+    ],
+    "prob_pred": [
+      0.04047795131814894,
+      0.13723071392907993,
+      0.25674722982092835,
+      0.3341523325544293,
+      0.4249656143096777,
+      0.5551703634546764,
+      0.6485973712874622,
+      0.7404656421174022,
+      0.8661701501403725,
+      0.9904480485645489
+    ]
+  },
+  "tier_table": [
+    {
+      "tier": "Tier 1 (Discount Eligible)",
+      "invoices": 1863,
+      "actual_late_rate": 0.00966183574879227,
+      "mean_predicted_prob": 0.09802065789699554,
+      "actual_mean_delay": -7.009661835748792,
+      "predicted_mean_delay": 5.369029998779297
+    },
+    {
+      "tier": "Tier 2 (Standard Flow)",
+      "invoices": 765,
+      "actual_late_rate": 0.023529411764705882,
+      "mean_predicted_prob": 0.28634369373321533,
+      "actual_mean_delay": -4.563398692810457,
+      "predicted_mean_delay": 2.72326397895813
+    },
+    {
+      "tier": "Tier 3 (Operational Delay)",
+      "invoices": 4199,
+      "actual_late_rate": 0.9552274351035961,
+      "mean_predicted_prob": 0.9560996890068054,
+      "actual_mean_delay": 1.372231483686592,
+      "predicted_mean_delay": 2.119946002960205
+    },
+    {
+      "tier": "Tier 4 (High Delay / Factoring)",
+      "invoices": 50,
+      "actual_late_rate": 0.96,
+      "mean_predicted_prob": 0.9213253855705261,
+      "actual_mean_delay": 1.18,
+      "predicted_mean_delay": 16.065738677978516
+    }
+  ]
+}
